@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
-import api from '../../server/api';
+import api from '../../services/api';
 
 import BackIcon from '../../assets/back-icon.svg';
 import LoadingIcon from '../../assets/loading.png';
