@@ -1,31 +1,6 @@
-'variables' to changes: {
-
-- Logo of Project here
-
-- /GitNameRepositoryHere
-
-- 'NameProjectHere'
-
-- ScreenshotOfProjectHere
-
-- created by me: (if not, delete it)
-
-- \*\* (optional) Ps
-
-- ProjectLinkInLiveHere
-
-- this is a react or next app?:
-  yarn start (react.js apps) or yarn dev(next.js apps)
-  
-  - /project-link
-
-- Choose Vercel or Netlify (hosting) + link
-
-}
-
 <div align='center'>
 
-# <img align='center' src="./.github/logo-of-project.svg" alt="Logo of Project here" width="350" style="border-radius: 6px;" />
+# <img align='center' src="./.github/pokemon.png" alt="Pokédex API" width="350" style="border-radius: 6px;" />
 
 # <img align='center' src="./.github/logo.svg" alt="My Logo (maganezf)" width="350"/>
 
@@ -36,32 +11,32 @@
       <img alt="Maganez Filho" src="https://img.shields.io/badge/-Maganez_Filho-0A66C2?style=flat&logo=Linkedin&logoColor=white" />
    </a>
 
-  <img alt='Project Top Language' src='https://img.shields.io/github/languages/top/maganezf/GitNameRepositoryHere'/>
+  <img alt='Project Top Language' src='https://img.shields.io/github/languages/top/maganezf/pokedex-api'/>
 
-  <a href='https://ProjectLinkInLiveHere' >
-    <img alt='ProjectLinkInLiveHere' src="https://img.shields.io/badge/ProjectLinkInLiveHere-101D42"/>
+  <a href='https://pokedex-api-maganezf.vercel.app/' >
+    <img alt='Pokédex API' src="https://img.shields.io/badge/Pokédex API-EF5350"/>
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/maganezf/GitNameRepositoryHere?color=5863d2">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/maganezf/pokedex-api?color=5863d2">
 
-  <a href="https://github.com/maganezf/GitNameRepositoryHere/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/maganezf/GitNameRepositoryHere?color=5863d2">
+  <a href="https://github.com/maganezf/pokedex-api/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/maganezf/pokedex-api?color=5863d2">
   </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0">
-  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/maganezf/GitNameRepositoryHere?color=5863d2" />
+  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/maganezf/pokedex-api?color=5863d2" />
   <a href="https://github.com/maganezf/GitNam-eRepositoryHere/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/maganezf/GitNameRepositoryHere?color=5863d2&logo=github">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/maganezf/pokedex-api?color=5863d2&logo=github">
   </a>
 </p>
 
 <div align="center">
 
-> This is my 'NameProjectHere' project 🤗
+> This is my 'Pokédex API' project 🤗
 
-<sub>The 'NameProjectHere' project. <br/>
+<sub>The 'Pokédex API' project. <br/>
 Built with ❤︎ by
 <a href="https://github.com/maganezf">Maganez Filho</a> and
-<a href="https://github.com/maganezf/GitNameRepositoryHere/graphs/contributors">
+<a href="https://github.com/maganezf/pokedex-api/graphs/contributors">
 contributors
 </a>
 </sub>
@@ -82,23 +57,29 @@ contributors
 <h2 align="left"> 🎨 Layout created by me:</h2>
 <p align="center">
   <div align="center">
-    <img src="./.github/ScreenshotOfProjectHere.png" width="400px" style="border-radius: 6px;" />
-    <img src="./.github/ScreenshotOfProjectHere.png" width="400px" style="border-radius: 6px;" />
+    <img src="./.github/screenshot1.png" width="400px" style="border-radius: 6px;" />
+    <img src="./.github/screenshot2.png" width="400px" style="border-radius: 6px;" />
+    
   </div>
+
+  <div align="center">
+    <img src="./.github/screenshot1-mobile.png" width="250px" style="border-radius: 6px;" />
+    <img src="./.github/screenshot2-mobile.png" width="250px" style="border-radius: 6px;" />
+  </div>
+
   <br/>
-** (optional) Ps: These layouts were just initial prototypes, which after new ideas I improved them 
 </p>
 
 # :eyes: Live Website
 
-👉 [Click to open Website here](https://ProjectLinkInLiveHere/)
+👉 [Click to open Website here](https://pokedex-api-maganezf.vercel.app/)
 
 # :computer: Technologies
 
 This project was made using the follow technologies:
 
 - [React.js](https://reactjs.org/)
-- [Next.js](https://nextjs.org/)
+- [Axios](https://axios-http.com/)
 - [Typescript](https://www.typescriptlang.org/)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -110,23 +91,17 @@ This project was made using the follow technologies:
 
 ## :information_desk_person: Ancillary sites at development
 
-- [Figma - Design UI/UX](https://www.figma.com/)
-- [Flaticon](https://www.flaticon.com/)
-- [Freepik](https://www.freepik.com/)
-- [Google Fonts](https://fonts.google.com/)
-- [Icon Finder](https://www.iconfinder.com/)
-- [Icons8](https://icons8.com/)
+- [PokéAPI](https://pokeapi.co/)
 
 # :dart: Purpose and Features
 
-- Website developed for professional purposes, job market.
-- And a means to contact me
+- Responsive Pokédex Application (partial) for study purposes with fetch API.
 
 # :construction_worker: How to Run
 
 ```bash
 # Clone Repository
-$ git clone https://github.com/maganezf/project-link.git
+$ git clone https://github.com/maganezf/pokedex-api.git
 ```
 
 ### 💻 Run Web Project
@@ -136,14 +111,14 @@ $ git clone https://github.com/maganezf/project-link.git
 $ yarn or yarn install
 
 # Run Aplication
-$ yarn start(react.js) or yarn dev(next.js)
+$ yarn start
 ```
 
 Go to http://localhost:3000/ to see the result.
 
 # :bug: Issues
 
-Feel free to **file a new issue** with a respective title and description on the the [ProjectLinkInLiveHere](https://github.com/maganezf/GitNameRepositoryHere/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [Pokédex API](https://github.com/maganezf/pokedex-api/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
 # :tada: Contributing
 
@@ -151,7 +126,7 @@ First of all, thank you for being interested in helping out, your time is always
 
 Here's some tips:
 
-- Check the [issues page](https://github.com/maganezf/GitNameRepositoryHere/issues) for already opened issues (or maybe even closed ones) that might already address your question/bug/feature request.
+- Check the [issues page](https://github.com/maganezf/pokedex-api/issues) for already opened issues (or maybe even closed ones) that might already address your question/bug/feature request.
 - Feature requests are welcomed! Provide some details on why it would be helpful for you and others, explain how you're using bull-board and if possible even some screenshots if you are willing to mock something!
 
 Check out the [contributing](./CONTRIBUTING) page to see the best places to file issues, start discussions and begin contributing.
