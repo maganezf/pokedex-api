@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+
+  height: 100vh;
+  overflow-y: auto;
 `;
 
 export const Header = styled.header`
@@ -13,6 +16,16 @@ export const Header = styled.header`
   justify-content: flex-start;
 
   margin: 10rem auto 0;
+
+  @media (max-width: 1024px) {
+    margin-top: 5rem;
+
+    width: 80vw;
+  }
+
+  @media (max-width: 768px) {
+    width: 90vw;
+  }
 `;
 
 export const Loading = styled.div`
@@ -24,6 +37,12 @@ export const Loading = styled.div`
   width: 60vw;
 
   margin: 20rem auto 0;
+
+  @media (max-width: 768px) {
+    margin-top: 10rem;
+
+    width: 90vw;
+  }
 
   > img {
     width: 5rem;
@@ -51,8 +70,17 @@ export const Loading = styled.div`
     font-size: 3.2rem;
     font-weight: 600;
 
+    @media (max-width: 1024px) {
+      width: 80vw;
+    }
+
+    @media (max-width: 768px) {
+      width: 90vw;
+
+      font-size: 2rem;
+    }
+
     > a {
-      padding-top: 0.5rem;
       font-weight: 600;
     }
   }
@@ -67,11 +95,11 @@ export const Loading = styled.div`
   }
 `;
 
-export const Content = styled.div`
+export const Card = styled.div`
   align-items: center;
   justify-content: center;
 
-  margin: 10rem auto 10rem;
+  margin: 10rem auto;
 
   width: 60vw;
 
@@ -87,6 +115,18 @@ export const Content = styled.div`
   color: #2062ac;
 
   font-size: 2rem;
+
+  @media (max-width: 1024px) {
+    width: 80vw;
+  }
+
+  @media (max-width: 768px) {
+    width: 90vw;
+
+    padding: 6rem 4rem;
+
+    font-size: 2rem;
+  }
 `;
 
 export const Main = styled.main`
@@ -98,6 +138,10 @@ export const Main = styled.main`
     font-size: 5rem;
 
     text-transform: uppercase;
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
   }
 
   @media (max-width: 580px) {
@@ -119,7 +163,7 @@ export const Section = styled.section`
     margin-top: 2rem;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 768px) {
     width: 90%;
   }
 `;

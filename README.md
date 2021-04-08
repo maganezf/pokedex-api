@@ -1,46 +1,166 @@
-# Getting Started with Create React App
+'variables' to changes: {
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Logo of Project here
 
-## Available Scripts
+- /GitNameRepositoryHere
 
-In the project directory, you can run:
+- 'NameProjectHere'
 
-### `yarn start`
+- ScreenshotOfProjectHere
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- created by me: (if not, delete it)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- \*\* (optional) Ps
 
-### `yarn test`
+- ProjectLinkInLiveHere
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- this is a react or next app?:
+  yarn start (react.js apps) or yarn dev(next.js apps)
+  
+  - /project-link
 
-### `yarn build`
+- Choose Vercel or Netlify (hosting) + link
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+}
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align='center'>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# <img align='center' src="./.github/logo-of-project.svg" alt="Logo of Project here" width="350" style="border-radius: 6px;" />
 
-### `yarn eject`
+# <img align='center' src="./.github/logo.svg" alt="My Logo (maganezf)" width="350"/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+</div>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+   <a href="https://www.linkedin.com/in/maganez-filho-b5813b188/">
+      <img alt="Maganez Filho" src="https://img.shields.io/badge/-Maganez_Filho-0A66C2?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  <img alt='Project Top Language' src='https://img.shields.io/github/languages/top/maganezf/GitNameRepositoryHere'/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  <a href='https://ProjectLinkInLiveHere' >
+    <img alt='ProjectLinkInLiveHere' src="https://img.shields.io/badge/ProjectLinkInLiveHere-101D42"/>
+  </a>
 
-## Learn More
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/maganezf/GitNameRepositoryHere?color=5863d2">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <a href="https://github.com/maganezf/GitNameRepositoryHere/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/maganezf/GitNameRepositoryHere?color=5863d2">
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-5965e0">
+  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/maganezf/GitNameRepositoryHere?color=5863d2" />
+  <a href="https://github.com/maganezf/GitNam-eRepositoryHere/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/maganezf/GitNameRepositoryHere?color=5863d2&logo=github">
+  </a>
+</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div align="center">
+
+> This is my 'NameProjectHere' project 🤗
+
+<sub>The 'NameProjectHere' project. <br/>
+Built with ❤︎ by
+<a href="https://github.com/maganezf">Maganez Filho</a> and
+<a href="https://github.com/maganezf/GitNameRepositoryHere/graphs/contributors">
+contributors
+</a>
+</sub>
+
+</div>
+
+# :pushpin: Table of Contents
+
+- [Live Website](#eyes-live-website)
+- [Technologies](#computer-technologies)
+- [Ancillary sites at development](#information_desk_person-Ancillary-sites-at-development)
+- [Purpose and Features](#dart-purpose-and-features)
+- [How to Run](#construction_worker-how-to-run)
+- [Found a bug? Missing a specific feature?](#bug-issues)
+- [Contributing](#tada-contributing)
+- [License](#closed_book-license)
+
+<h2 align="left"> 🎨 Layout created by me:</h2>
+<p align="center">
+  <div align="center">
+    <img src="./.github/ScreenshotOfProjectHere.png" width="400px" style="border-radius: 6px;" />
+    <img src="./.github/ScreenshotOfProjectHere.png" width="400px" style="border-radius: 6px;" />
+  </div>
+  <br/>
+** (optional) Ps: These layouts were just initial prototypes, which after new ideas I improved them 
+</p>
+
+# :eyes: Live Website
+
+👉 [Click to open Website here](https://ProjectLinkInLiveHere/)
+
+# :computer: Technologies
+
+This project was made using the follow technologies:
+
+- [React.js](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [SASS / SCSS](https://sass-lang.com/)
+- [Styled Components](https://styled-components.com/)
+- [Node](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
+- [Vercel (hosting)](https://vercel.com/)
+
+## :information_desk_person: Ancillary sites at development
+
+- [Figma - Design UI/UX](https://www.figma.com/)
+- [Flaticon](https://www.flaticon.com/)
+- [Freepik](https://www.freepik.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Icon Finder](https://www.iconfinder.com/)
+- [Icons8](https://icons8.com/)
+
+# :dart: Purpose and Features
+
+- Website developed for professional purposes, job market.
+- And a means to contact me
+
+# :construction_worker: How to Run
+
+```bash
+# Clone Repository
+$ git clone https://github.com/maganezf/project-link.git
+```
+
+### 💻 Run Web Project
+
+```bash
+# Install Dependencies
+$ yarn or yarn install
+
+# Run Aplication
+$ yarn start(react.js) or yarn dev(next.js)
+```
+
+Go to http://localhost:3000/ to see the result.
+
+# :bug: Issues
+
+Feel free to **file a new issue** with a respective title and description on the the [ProjectLinkInLiveHere](https://github.com/maganezf/GitNameRepositoryHere/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+
+# :tada: Contributing
+
+First of all, thank you for being interested in helping out, your time is always appreciated in every way. 💯
+
+Here's some tips:
+
+- Check the [issues page](https://github.com/maganezf/GitNameRepositoryHere/issues) for already opened issues (or maybe even closed ones) that might already address your question/bug/feature request.
+- Feature requests are welcomed! Provide some details on why it would be helpful for you and others, explain how you're using bull-board and if possible even some screenshots if you are willing to mock something!
+
+Check out the [contributing](./CONTRIBUTING) page to see the best places to file issues, start discussions and begin contributing.
+
+# :closed_book: License
+
+Released in 2021 📕 License
+
+Made with ❤︎ by [Maganez Filho](https://github.com/maganezf) 🚀. <br/>
+This project is under the [MIT license](./LICENSE).
+
+Give a ⭐️ if this project helped you!

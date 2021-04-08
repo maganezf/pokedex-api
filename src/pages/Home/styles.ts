@@ -5,7 +5,6 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
-  width: 100vw;
   height: 100vh;
 `;
 
@@ -13,11 +12,15 @@ export const Header = styled.header`
   margin-top: 10rem;
 
   > img {
-    width: 50rem;
+    width: 30vw;
+
+    @media (max-width: 768px) {
+      width: 60vw;
+    }
   }
 `;
 
-export const Content = styled.div`
+export const Card = styled.div`
   margin-top: 6rem;
 
   display: flex;
@@ -25,8 +28,8 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
 
-  width: 80rem;
-  height: 30rem;
+  width: 60vw;
+  height: 40vh;
 
   background-color: #ffcc01;
 
@@ -40,6 +43,14 @@ export const Content = styled.div`
   color: #2062ac;
 
   font-size: 2rem;
+
+  @media (max-width: 1024px) {
+    width: 80vw;
+  }
+
+  @media (max-width: 768px) {
+    width: 90vw;
+  }
 `;
 
 export const SearchForm = styled.form`
@@ -47,6 +58,14 @@ export const SearchForm = styled.form`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  > h1 {
+    font-size: 3.5rem;
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
 
   .input {
     display: flex;
@@ -61,15 +80,30 @@ export const SearchForm = styled.form`
 
       margin-top: 3rem;
 
-      color: #ffcc01;
+      text-align: center;
+      color: #fafafa;
 
       background-color: #24292e;
 
-      border: 5px solid #24292e;
+      border: 2px solid #24292e;
 
       outline: 0;
       border-radius: 6px;
       padding: 1.2rem 1.5rem;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+
+      &::placeholder {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        @media (max-width: 768px) {
+          font-size: 1.4rem;
+        }
+      }
     }
   }
 `;
@@ -79,6 +113,10 @@ export const InfoAPI = styled.footer`
 
   > p {
     font-size: 1.6rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.4rem;
+    }
 
     > a {
       padding-left: 0.5rem;

@@ -53,7 +53,7 @@ interface ApiResponse {
   };
 }
 
-import { Container, Header, Content, Section, Main, Loading } from './styles';
+import { Container, Header, Card, Section, Main, Loading } from './styles';
 
 const iterate = (array: any[], key: string) => {
   const newArray = array.map((item, index) => {
@@ -73,7 +73,6 @@ const Pokemon: React.FC = () => {
 
   useEffect(() => {
     api.get<ApiResponse>(pokemonName).then(async response => {
-      console.log(response.data);
       setPokemons(response.data);
     });
   }, []);
@@ -102,7 +101,7 @@ const Pokemon: React.FC = () => {
           </p>
         </Loading>
       ) : (
-        <Content>
+        <Card>
           <Main>
             <h1>{pokemonName}</h1>
 
@@ -136,7 +135,7 @@ const Pokemon: React.FC = () => {
           <Section>
             <h2>Moves: {iterate(pokemons.moves, 'move')}</h2>
           </Section>
-        </Content>
+        </Card>
       )}
     </Container>
   );

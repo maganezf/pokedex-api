@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 
 import PokemonLogo from '../../assets/pokemon-logo.png';
 
-import { Container, Header, Content, SearchForm, InfoAPI } from './styles';
+import { Container, Header, Card, SearchForm, InfoAPI } from './styles';
 
 const Home: React.FC = () => {
   const [search, setSearch] = useState('');
@@ -21,7 +21,7 @@ const Home: React.FC = () => {
         <img src={PokemonLogo} alt="PokemonLogo" loading="lazy" />
       </Header>
 
-      <Content>
+      <Card>
         <SearchForm onSubmit={handleSubmit}>
           <h1>Search a Pokémon in Pokédex:</h1>
 
@@ -46,7 +46,7 @@ const Home: React.FC = () => {
             </a>
           </p>
         </InfoAPI>
-      </Content>
+      </Card>
     </Container>
   );
 };
